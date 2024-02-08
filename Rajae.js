@@ -1,17 +1,5 @@
 console.log("Im here");
 
-/*var count =0;
-function startTimer()
-
-{
-
-    setInterval(() => {
-        count++;
-        document.getElementById("").innerHTML=count;
-    }, 1000);
-}
-console.log(startTimer);*/
-
 //PROMISE
 let UploudVideo=new Promise((resolve,reject)=>{
 //do some operation ...
