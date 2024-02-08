@@ -37,8 +37,8 @@ let UploudVideo2= new Promise((resolve,reject)=>{
 });
 
 let UploudVideo3= new Promise((resolve,reject)=>{
-    //resolve("Sucssfully UploadedVideo3 upload");
-    reject("upload video 3 is failled !!!");
+    resolve("Sucssfully UploadedVideo3 upload");
+   // reject("upload video 3 is failled !!!");
 });
 // upload tous les video quant il a trouve un reject sortir afficher le reject
 /*Promise.all([UploudVideo1,UploudVideo2,UploudVideo3]).then((msgs)=>
